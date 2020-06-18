@@ -10,6 +10,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 50px 0;
 }
 
 .container {
@@ -30,6 +31,7 @@ body {
 .barContainer {
     display: flex;
     align-items: flex-end;
+    padding: 30px 0;
 }
 
 .bar {
@@ -130,4 +132,8 @@ body {
     100% {
         border-radius: 50%;
     }
+}
+
+.color {
+    background-color: black;
 }
